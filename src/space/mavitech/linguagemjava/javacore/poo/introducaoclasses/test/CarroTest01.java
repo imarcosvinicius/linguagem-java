@@ -2,7 +2,7 @@ package space.mavitech.linguagemjava.javacore.poo.introducaoclasses.test;
 
 import space.mavitech.linguagemjava.javacore.poo.introducaoclasses.domain.Carro;
 
-public class CarroTest {
+public class CarroTest01 {
 
     public static void main(String[] args) {
         Carro carro01 = new Carro();
