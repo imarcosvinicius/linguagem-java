@@ -10,9 +10,9 @@ public class FuncionarioTest01 {
         Locale.setDefault(Locale.US);
 
         Funcionario funcionario = new Funcionario();
-        funcionario.nome = "Arnaldo";
-        funcionario.idade = 37;
-//        funcionario.salarios = new double[]{2000, 500, 1800};
+        funcionario.setNome("Arnaldo");
+        funcionario.setIdade(38);
+        funcionario.setSalarios(new double[]{2000, 500, 1800});
 
         funcionario.imprimeDados();
 
