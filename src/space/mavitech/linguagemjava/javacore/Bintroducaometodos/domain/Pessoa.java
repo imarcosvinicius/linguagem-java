@@ -1,4 +1,4 @@
-package space.mavitech.linguagemjava.javacore.poo.introducaometodos.domain;
+package space.mavitech.linguagemjava.javacore.Bintroducaometodos.domain;
 
 public class Pessoa {
 

@@ -1,6 +1,6 @@
-package space.mavitech.linguagemjava.javacore.poo.introducaometodos.test;
+package space.mavitech.linguagemjava.javacore.Bintroducaometodos.test;
 
-import space.mavitech.linguagemjava.javacore.poo.introducaometodos.domain.Estudante;
+import space.mavitech.linguagemjava.javacore.Bintroducaometodos.domain.Estudante;
 
 public class EstudanteTest02 {
 

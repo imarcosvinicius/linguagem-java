@@ -1,6 +1,6 @@
-package space.mavitech.linguagemjava.javacore.poo.introducaoclasses.test;
+package space.mavitech.linguagemjava.javacore.Aintroducaoclasses.test;
 
-import space.mavitech.linguagemjava.javacore.poo.introducaoclasses.domain.Carro;
+import space.mavitech.linguagemjava.javacore.Aintroducaoclasses.domain.Carro;
 
 public class CarroTest02 {
 

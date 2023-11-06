@@ -1,4 +1,4 @@
-package space.mavitech.linguagemjava.javacore.poo.introducaoclasses.domain;
+package space.mavitech.linguagemjava.javacore.Aintroducaoclasses.domain;
 
 public class Professor {
 

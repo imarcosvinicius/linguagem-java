@@ -1,4 +1,4 @@
-package space.mavitech.linguagemjava.javacore.poo.sobrecargametodos.domain;
+package space.mavitech.linguagemjava.javacore.Csobrecargametodos.domain;
 
 public class Anime {
 

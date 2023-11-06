@@ -1,6 +1,6 @@
-package space.mavitech.linguagemjava.javacore.poo.sobrecargametodos.test;
+package space.mavitech.linguagemjava.javacore.Csobrecargametodos.test;
 
-import space.mavitech.linguagemjava.javacore.poo.sobrecargametodos.domain.Anime;
+import space.mavitech.linguagemjava.javacore.Csobrecargametodos.domain.Anime;
 
 public class AnimeTest01 {
 

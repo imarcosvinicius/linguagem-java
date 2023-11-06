@@ -1,6 +1,6 @@
-package space.mavitech.linguagemjava.javacore.poo.introducaometodos.test;
+package space.mavitech.linguagemjava.javacore.Bintroducaometodos.test;
 
-import space.mavitech.linguagemjava.javacore.poo.introducaometodos.domain.Calculadora;
+import space.mavitech.linguagemjava.javacore.Bintroducaometodos.domain.Calculadora;
 
 public class CalculadoraTest02 {
 
