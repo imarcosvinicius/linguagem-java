@@ -1,4 +1,4 @@
-package space.mavitech.linguagemjava.dio.collections.OperacoesBasicas;
+package space.mavitech.linguagemjava.dio.collections.list.OperacoesBasicas;
 
 import java.util.ArrayList;
 import java.util.List;
