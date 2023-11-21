@@ -1,0 +1,50 @@
+package space.mavitech.linguagemjava.dio.collections.list.Ordenacao;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
+
+public class OrdenacaoPessoa {
+
+    private List<Pessoa> pessoaList;
+
+    public OrdenacaoPessoa() {
+        this.pessoaList = new ArrayList<>();
+    }
+
+    public void adicionarPessoa(String nome, int idade, double altura) {
+        this.pessoaList.add(new Pessoa(nome, idade, altura));
+    }
+
+    public List<Pessoa> ordenarPorIdade() {
+        if (!pessoaList.isEmpty()) {
+            List<Pessoa> pessoasPorIdade = new ArrayList<>(pessoaList);
+            Collections.sort(pessoasPorIdade);
+            return pessoasPorIdade;
+        } else {
+            throw new RuntimeException("A lista está vazia!");
+        }
+
+    }
+
+    public List<Pessoa> ordenarPorAltura() {
+        List<Pessoa> pessoasPorAltura = new ArrayList<>(pessoaList);
+        Collections.sort(pessoasPorAltura, new ComparatorPorAltura());
+        return pessoasPorAltura;
+    }
+
+    public static void main(String[] args) {
+        OrdenacaoPessoa ordenacaoPessoa = new OrdenacaoPessoa();
+        ordenacaoPessoa.adicionarPessoa("Nome4", 17, 1.56);
+        ordenacaoPessoa.adicionarPessoa("Nome2", 30, 1.80);
+        ordenacaoPessoa.adicionarPessoa("Nome3", 25, 1.70);
+        ordenacaoPessoa.adicionarPessoa("Nome1", 20, 1.56);
+
+        System.out.println(ordenacaoPessoa.pessoaList);
+
+        System.out.println(ordenacaoPessoa.ordenarPorIdade());
+        System.out.println(ordenacaoPessoa.ordenarPorAltura());
+    }
+
+}
